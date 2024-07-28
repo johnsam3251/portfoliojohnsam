@@ -79,7 +79,7 @@ const Portfolio = () => {
     ...scrollRevealOption,
     delay: 1500,
   });
-  ///////////Animation End//////////////////////////////
+
   return (
     <div>
       {/* Nav Section **********************/}
