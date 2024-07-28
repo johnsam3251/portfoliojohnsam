@@ -30,7 +30,7 @@ import ScrollReveal from "scrollreveal";
 
 const Portfolio = () => {
   const [open, setOpen] = useState(false);
-  ///////////Animation Start///////////////////
+  ///////////Animation Start////////////////
   const scrollRevealOption = {
     distance: "50px",
     origin: "bottom",
