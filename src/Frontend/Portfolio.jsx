@@ -37,8 +37,10 @@ const Portfolio = () => {
     duration: 1000,
   };
 
-  ScrollReveal().reveal(".profile_img", {
-    ...scrollRevealOption,
+  ScrollReveal({ reset: true }).reveal(".profile_img", {
+    distance: "30px",
+    origin: "bottom",
+    duration: 1000,
     delay: 300,
   });
   ScrollReveal().reveal(".header__container h1", {
@@ -99,7 +101,7 @@ const Portfolio = () => {
               {open ? <IoMdClose /> : <IoMenu />}
             </div>
           </div>
-          <ul className={`nav__links ${open ? "open" : ""}`} id="nav-links">
+          <ul className={`nav__links ${open ? " open" : ""}`} id="nav-links">
             <li>
               <a href="#home">Home</a>
             </li>
