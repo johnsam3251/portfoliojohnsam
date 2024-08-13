@@ -131,7 +131,7 @@ const Portfolio = () => {
         </h1>
         <p>
           I’m a passionate Full Stack Developer with a strong foundation in both
-          front-end and back-end technologies. With 2 years of experience in the
+          front-end and back-end technologies. With 3 years of experience in the
           web applications development field, I thrive on creating efficient,
           user-friendly applications that not only meet the needs of clients but
           also provide seamless experiences for end-users.
