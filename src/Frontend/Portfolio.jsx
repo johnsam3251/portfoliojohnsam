@@ -131,7 +131,7 @@ const Portfolio = () => {
         </h1>
         <p>
           I’m a passionate Full Stack Developer with a strong foundation in both
-          front-end and back-end technologies. With 3 years of experience in the
+          front-end and back-end technologies. With 2 years of experience in the
           web applications development field, I thrive on creating efficient,
           user-friendly applications that not only meet the needs of clients but
           also provide seamless experiences for end-users.
@@ -330,7 +330,7 @@ const Portfolio = () => {
                 <img src={fastrack1} alt="fastrack" />
                 <h4>Product Manager</h4>
               </div>
-              <p>Nov 2023 - Present</p>
+              <p>Jan 2021 - Apr 2022</p>
             </div>
             <p>
               As a Product Manager at FASTRACK, I spearheaded innovative
@@ -346,7 +346,7 @@ const Portfolio = () => {
                 <img src={fastrack1} alt="fastrack" />
                 <h4>Junior Software Engineer</h4>
               </div>
-              <p>Apr 2022 - Nov 2023</p>
+              <p>Apr 2022 - Jan 2024</p>
             </div>
             <p>
               At FASTRACK, I contributed to the development of high-performance
@@ -362,7 +362,7 @@ const Portfolio = () => {
                 <img src={oic1} alt="oic" />
                 <h4>Web Developer and Tutor</h4>
               </div>
-              <p>Jan 2021 - Apr 2022</p>
+              <p>Jan 2024 - Present</p>
             </div>
             <p>
               During my tenure at OIC, I honed my skills in front-end and
