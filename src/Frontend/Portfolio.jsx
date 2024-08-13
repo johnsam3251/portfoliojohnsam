@@ -365,11 +365,11 @@ const Portfolio = () => {
               <p>Jan 2024 - Present</p>
             </div>
             <p>
-              During my tenure at OIC, I honed my skills in front-end and
-              back-end development, working on diverse projects that improved
-              platform functionality. My responsibilities included coding,
-              testing, and deploying web applications, as well as supporting
-              senior engineers in creating innovative social media solutions.
+              At OIC, I honed my skills in front-end and back-end development,
+              working on diverse projects that improved platform functionality.
+              My responsibilities included coding, testing, and deploying web
+              applications, as well as supporting senior engineers in creating
+              innovative social media solutions.
             </p>
           </li>
         </ul>
