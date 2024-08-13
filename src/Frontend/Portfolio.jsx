@@ -26,61 +26,61 @@ import fastrack1 from "../assets/image/fastrack1.png";
 import oic1 from "../assets/image/oic1.png";
 import profile from "../assets/image/profile.png";
 import { useState } from "react";
-import ScrollReveal from "scrollreveal";
+// import ScrollReveal from "scrollreveal";
 
 const Portfolio = () => {
   const [open, setOpen] = useState(false);
   ///////////Animation Start////////////////
-  const scrollRevealOption = {
-    distance: "50px",
-    origin: "bottom",
-    duration: 1000,
-  };
+  // const scrollRevealOption = {
+  //   distance: "50px",
+  //   origin: "bottom",
+  //   duration: 1000,
+  // };
 
-  ScrollReveal({ reset: true }).reveal(".profile_img", {
-    distance: "30px",
-    origin: "bottom",
-    duration: 1000,
-    delay: 300,
-  });
-  ScrollReveal().reveal(".header__container h1", {
-    ...scrollRevealOption,
-    delay: 500,
-  });
-  ScrollReveal().reveal(".header__container p", {
-    ...scrollRevealOption,
-    delay: 1000,
-  });
-  ScrollReveal().reveal(".header__btns", {
-    ...scrollRevealOption,
-    delay: 1500,
-  });
+  // ScrollReveal({ reset: true }).reveal(".profile_img", {
+  //   distance: "30px",
+  //   origin: "bottom",
+  //   duration: 1000,
+  //   delay: 300,
+  // });
+  // ScrollReveal().reveal(".header__container h1", {
+  //   ...scrollRevealOption,
+  //   delay: 500,
+  // });
+  // ScrollReveal().reveal(".header__container p", {
+  //   ...scrollRevealOption,
+  //   delay: 1000,
+  // });
+  // ScrollReveal().reveal(".header__btns", {
+  //   ...scrollRevealOption,
+  //   delay: 1500,
+  // });
 
-  ScrollReveal().reveal(".project__card", {
-    ...scrollRevealOption,
-    interval: 500,
-  });
+  // ScrollReveal().reveal(".project__card", {
+  //   ...scrollRevealOption,
+  //   interval: 500,
+  // });
 
-  ScrollReveal().reveal(".experience__list li", {
-    ...scrollRevealOption,
-    interval: 500,
-  });
+  // ScrollReveal().reveal(".experience__list li", {
+  //   ...scrollRevealOption,
+  //   interval: 500,
+  // });
 
-  ScrollReveal().reveal(".footer__container h2", {
-    ...scrollRevealOption,
-  });
-  ScrollReveal().reveal(".footer__container p", {
-    ...scrollRevealOption,
-    delay: 500,
-  });
-  ScrollReveal().reveal(".footer__container .mail__to", {
-    ...scrollRevealOption,
-    delay: 1000,
-  });
-  ScrollReveal().reveal(".footer__socials", {
-    ...scrollRevealOption,
-    delay: 1500,
-  });
+  // ScrollReveal().reveal(".footer__container h2", {
+  //   ...scrollRevealOption,
+  // });
+  // ScrollReveal().reveal(".footer__container p", {
+  //   ...scrollRevealOption,
+  //   delay: 500,
+  // });
+  // ScrollReveal().reveal(".footer__container .mail__to", {
+  //   ...scrollRevealOption,
+  //   delay: 1000,
+  // });
+  // ScrollReveal().reveal(".footer__socials", {
+  //   ...scrollRevealOption,
+  //   delay: 1500,
+  // });
 
   return (
     <div>
@@ -360,7 +360,7 @@ const Portfolio = () => {
             <div className="experience__header">
               <div>
                 <img src={oic1} alt="oic" />
-                <h4>Web Developer and Tutor</h4>
+                <h4>Full-Stack Developer and Tutor</h4>
               </div>
               <p>Jan 2024 - Present</p>
             </div>
