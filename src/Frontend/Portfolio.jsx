@@ -405,7 +405,7 @@ const Portfolio = () => {
               </a>
             </li>
             <li>
-              <a href="https://www.linkedin.com/in/olayinka-samuel-tobi-a7765110b">
+              <a href="https://www.linkedin.com/in/olayinka-samuel-a7765110b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
                 <FaLinkedin />
               </a>
             </li>
