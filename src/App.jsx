@@ -1,4 +1,5 @@
 import "bootstrap/dist/css/bootstrap.min.css";
+import "animate.css";
 import Portfolio from "./Frontend/Portfolio";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 

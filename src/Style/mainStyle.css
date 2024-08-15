@@ -257,6 +257,7 @@ body {
   background-color: var(--primary-color);
   border-radius: 1rem;
   overflow: hidden;
+  animation-duration: 2s;
 }
 .project__card img {
   width: 100%;

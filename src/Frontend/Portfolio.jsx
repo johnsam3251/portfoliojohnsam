@@ -26,61 +26,9 @@ import fastrack1 from "../assets/image/fastrack1.png";
 import oic1 from "../assets/image/oic1.png";
 import profile from "../assets/image/profile.png";
 import { useState } from "react";
-// import ScrollReveal from "scrollreveal";
 
 const Portfolio = () => {
   const [open, setOpen] = useState(false);
-  ///////////Animation Start////////////////
-  // const scrollRevealOption = {
-  //   distance: "50px",
-  //   origin: "bottom",
-  //   duration: 1000,
-  // };
-
-  // ScrollReveal({ reset: true }).reveal(".profile_img", {
-  //   distance: "30px",
-  //   origin: "bottom",
-  //   duration: 1000,
-  //   delay: 300,
-  // });
-  // ScrollReveal().reveal(".header__container h1", {
-  //   ...scrollRevealOption,
-  //   delay: 500,
-  // });
-  // ScrollReveal().reveal(".header__container p", {
-  //   ...scrollRevealOption,
-  //   delay: 1000,
-  // });
-  // ScrollReveal().reveal(".header__btns", {
-  //   ...scrollRevealOption,
-  //   delay: 1500,
-  // });
-
-  // ScrollReveal().reveal(".project__card", {
-  //   ...scrollRevealOption,
-  //   interval: 500,
-  // });
-
-  // ScrollReveal().reveal(".experience__list li", {
-  //   ...scrollRevealOption,
-  //   interval: 500,
-  // });
-
-  // ScrollReveal().reveal(".footer__container h2", {
-  //   ...scrollRevealOption,
-  // });
-  // ScrollReveal().reveal(".footer__container p", {
-  //   ...scrollRevealOption,
-  //   delay: 500,
-  // });
-  // ScrollReveal().reveal(".footer__container .mail__to", {
-  //   ...scrollRevealOption,
-  //   delay: 1000,
-  // });
-  // ScrollReveal().reveal(".footer__socials", {
-  //   ...scrollRevealOption,
-  //   delay: 1500,
-  // });
 
   return (
     <div>
@@ -126,7 +74,7 @@ const Portfolio = () => {
           <img src={profile} alt="header" className="profile_img" />
         </div>
 
-        <h1>
+        <h1 className="animate__animated animate__bounceIn">
           I'm a Fullstack <span>Developer</span>
         </h1>
         <p>
@@ -148,7 +96,7 @@ const Portfolio = () => {
       {/* Experience With Section ******************/}
       <section className="section__container skill__container">
         <h2>EXPERIENCE WITH</h2>
-        <ul className="skill__flex">
+        <ul className="skill__flex animate__animated animate__heartBeat">
           <li>
             <span>
               <RiJavascriptFill />
@@ -195,7 +143,7 @@ const Portfolio = () => {
       <section className="section__container project__container" id="service">
         <h2>SERVICES</h2>
         <div className="project__grid">
-          <div className="project__card">
+          <div className="project__card animate__animated animate__lightSpeedInLeft">
             <div className="project__card__details">
               <div>
                 <p>
@@ -218,7 +166,7 @@ const Portfolio = () => {
               </a>
             </div>
           </div>
-          <div className="project__card">
+          <div className="project__card animate__animated animate__lightSpeedInRight">
             <div className="project__card__details">
               <div>
                 <p>
@@ -240,7 +188,7 @@ const Portfolio = () => {
               </a>
             </div>
           </div>
-          <div className="project__card">
+          <div className="project__card animate__animated animate__slideInUp">
             <div className="project__card__details">
               <div>
                 <p>
@@ -323,7 +271,7 @@ const Portfolio = () => {
         id="experience"
       >
         <h2>EXPERIENCE</h2>
-        <ul className="experience__list">
+        <ul className="experience__list animate__animated animate__bounce">
           <li>
             <div className="experience__header">
               <div>
@@ -378,14 +326,14 @@ const Portfolio = () => {
       <footer>
         <div className="section__container footer__container" id="contact">
           <h2>Contact</h2>
-          <p>
+          <p className="animate__animated animate__backInRight">
             I would love to hear from you! Whether you have a project in mind, a
             question about my work, or just want to connect, feel free to reach
             out. You can contact me via email or through my social media
             channels. I am always excited to collaborate with like-minded
             individuals and explore new opportunities.
           </p>
-          <div className="mail__to">
+          <div className="mail__to animate__animated animate__backInUp">
             <a href="#">
               <span>
                 <i className="ri-mail-line"></i>
@@ -393,7 +341,7 @@ const Portfolio = () => {
               <BiLogoGmail /> samuelolayinka2760@gmail.com
             </a>
           </div>
-          <ul className="footer__socials">
+          <ul className="footer__socials animate__animated animate__backInUp">
             <li>
               <a href="https://www.facebook.com/profile.php?id=100013664239245&mibextid=ZbWKwL">
                 <FaFacebookF />
