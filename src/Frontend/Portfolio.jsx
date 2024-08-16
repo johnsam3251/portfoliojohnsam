@@ -85,9 +85,8 @@ const Portfolio = () => {
           also provide seamless experiences for end-users.
         </p>
         <div className="header__btns">
-          <button className="btn" href="#contact">
-            Get in Touch
-          </button>
+          <a href="#contact">Get in Touch</a>
+
           <a href={CV} download>
             Download CV
           </a>
@@ -335,9 +334,6 @@ const Portfolio = () => {
           </p>
           <div className="mail__to animate__animated animate__backInUp">
             <a href="#">
-              <span>
-                <i className="ri-mail-line"></i>
-              </span>
               <BiLogoGmail /> samuelolayinka2760@gmail.com
             </a>
           </div>

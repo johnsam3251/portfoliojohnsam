@@ -218,6 +218,7 @@ body {
   justify-content: center;
   gap: 1rem;
   flex-wrap: wrap;
+  animation-duration: 8s;
 }
 
 .skill__flex span {
@@ -259,11 +260,22 @@ body {
   overflow: hidden;
   animation-duration: 2s;
 }
+#home h1 {
+  animation-duration: 8s;
+}
 .project__card img {
   width: 100%;
   height: 150px;
 }
-
+#contact p {
+  animation-duration: 2s;
+}
+.mail__to {
+  animation-duration: 2s;
+}
+.footer__socials {
+  animation-duration: 2s;
+}
 #contact {
   display: flex !important;
   flex-direction: column !important;
@@ -313,6 +325,7 @@ body {
 .experience__list {
   display: grid;
   gap: 3rem;
+  animation-duration: 3s;
 }
 
 .experience__header {
